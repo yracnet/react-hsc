@@ -1,0 +1,85 @@
+:basic: ./src/examples/basic
+
+# React-RSC
+React Reducer Store Context
+
+It is a Simple **Reducer Store Context** for react project using hooks 
+
+1. **counterReducer**: Create a Reducer
+1. **createStore**: Create a Store
+1. **StoreContext**: Default StoreContext
+1. **useSelector**: Selecion a state from MAIN-STATE
+1. **useDispatch**: Reference a global dispatch of STORE
+
+## Create a Reducer
+
+Create a **counterReducer**.
+
+[source,javascript]
+----
+include::{basic}/counterReducer.js[]
+----
+
+## Create a Store
+
+Create a new **Store**, use **useStore** for declarin all reducers.
+
+[source,javascript]
+----
+include::{basic}/basicStore.js[]
+----
+
+
+
+## Default StoreContext
+
+Use the **StoreContext** and pass de **basicStore**.
+
+[source,javascript]
+----
+include::{basic}/BasicApp.js[]
+----
+
+
+## useSelector
+
+**useSelector** for selection state from **MAIN-STATE**.
+
+[source,javascript]
+----
+include::{basic}/CounterDisplay.js[]
+----
+
+
+## useDispatch
+
+**useDispatch** for dispatch an action.
+
+[source,javascript]
+----
+include::{basic}/CounterButtons.js[]
+----
+
+
+## Actions supports
+
+**useDispatch** for dispatch an action support string, function and async function parameters.
+
+[source,javascript]
+----
+include::{basic}/CounterActions.js[]
+----
+
+
+## Custom Store Context
+
+[source,javascript]
+----
+include::{basic}/CustomApp.js[]
+----
+
+
+[NOTE]
+====
+This lib use the redux-plugin-devtools for show the MAIN-STATE context
+====

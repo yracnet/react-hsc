@@ -1,4 +1,4 @@
-:basic: ./src/examples/basic
+:basic: src/examples/basic
 
 # React-RSC
 React Reducer Store Context

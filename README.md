@@ -5,6 +5,12 @@
 [![NPM](https://img.shields.io/npm/v/react-rsc.svg)](https://www.npmjs.com/package/react-rsc) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 
+
+## CodeSandbox Basic Example
+
+[![Edit codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-rsc-001-t7g80)
+
+
 ## Install
 
 React RSC is available as a package on NPM for use with a module in your React application:

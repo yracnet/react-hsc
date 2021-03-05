@@ -1,4 +1,4 @@
-# react-rsc
+# React-RSC
 
 > Made with create-react-library
 

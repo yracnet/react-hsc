@@ -45,5 +45,12 @@
   },
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "react",
+    "state",
+    "redux",
+    "reducer",
+    "context"
   ]
 }

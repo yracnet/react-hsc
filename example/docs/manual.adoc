@@ -1,4 +1,5 @@
 :basic: ../src/basic
+:github: https://github.com/yracnet/react-rsc/tree/main/example/src/basic
 
 # React-RSC
 
@@ -16,7 +17,7 @@ It is a Simple **Reducer Store Context** for react project using hooks
 
 Create a **counterReducer**.
 
-link:{basic}/counterReducer.js[counterReducer.js]
+link:{github}/counterReducer.js[counterReducer.js]
 [source,javascript]
 ----
 include::{basic}/counterReducer.js[]
@@ -26,7 +27,7 @@ include::{basic}/counterReducer.js[]
 
 Create a new **Store**, use **useStore** for declarin all reducers.
 
-link:{basic}/basicStore.js[basicStore.js]
+link:{github}/basicStore.js[basicStore.js]
 [source,javascript]
 ----
 include::{basic}/basicStore.js[]
@@ -38,7 +39,7 @@ include::{basic}/basicStore.js[]
 
 Use the **StoreContext** and pass de **basicStore**.
 
-link:{basic}/BasicApp.js[BasicApp.js]
+link:{github}/BasicApp.js[BasicApp.js]
 [source,javascript]
 ----
 include::{basic}/BasicApp.js[]
@@ -49,7 +50,7 @@ include::{basic}/BasicApp.js[]
 
 **useSelector** for selection state from **MAIN-STATE**.
 
-link:{basic}/CounterDisplay.js[CounterDisplay.js]
+link:{github}/CounterDisplay.js[CounterDisplay.js]
 [source,javascript]
 ----
 include::{basic}/CounterDisplay.js[]
@@ -60,7 +61,7 @@ include::{basic}/CounterDisplay.js[]
 
 **useDispatch** for dispatch an action.
 
-link:{basic}/CounterButtons.js[CounterButtons.js]
+link:{github}/CounterButtons.js[CounterButtons.js]
 [source,javascript]
 ----
 include::{basic}/CounterButtons.js[]
@@ -71,7 +72,7 @@ include::{basic}/CounterButtons.js[]
 
 **useDispatch** for dispatch an action support string, function and async function parameters.
 
-link:{basic}/CounterActions.js[CounterActions.js]
+link:{github}/CounterActions.js[CounterActions.js]
 [source,javascript]
 ----
 include::{basic}/CounterActions.js[]
@@ -80,7 +81,7 @@ include::{basic}/CounterActions.js[]
 
 ## Custom Store Context
 
-link:{basic}/CustomApp.js[CustomApp.js]
+link:{github}/CustomApp.js[CustomApp.js]
 [source,javascript]
 ----
 include::{basic}/CustomApp.js[]

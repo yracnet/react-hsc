@@ -28,7 +28,7 @@ The Redux RSC package is intended to be a simple alternative to REDUX for handli
 
 1. **useSelector** functionality manages access to the ROOT-STATE similar to REDUX's useSelector.
 
-1. **useDispatch** functionality triggers an action that will be sent to the declared REDUCERS, this method supports parameters like **STRING | ACTION | FUNCTION | ASYNC FUNCTION**.
+1. **useDispatch** functionality triggers an action that will be sent to the declared REDUCERS, this method supports parameters like **STRING, ACTION, FUNCTION, ASYNC FUNCTION**.
 
 ---
 **NOTE**

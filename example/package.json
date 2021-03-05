@@ -1,6 +1,7 @@
 {
   "name": "react-rsc-example",
   "version": "0.1.0",
+  "homepage": "https://yracnet.github.io/react-rsc",
   "private": true,
   "scripts": {
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",

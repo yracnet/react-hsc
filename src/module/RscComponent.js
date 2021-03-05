@@ -32,25 +32,14 @@ export const useSelector = (selector, context = StoreContext) => {
 // context = createContext instance
 export const useDispatch = (context = StoreContext) => {
     const handler = useContext(context);
-    // action = string | {type: string} | function | async function(dispatch)
+    // action = string | {type: string} | function(dispatch)
     return (action) => {
-        if (utils.isFunctionAsync(action)) {
-            handler.callDispatch({ type: '[Async]-Start' });
-            try {
-                let callDispatchAsync = (value) => {
-                    handler.callDispatch(value);
-                    handler.callDispatch({ type: '[Async]-Finish' });
-                };
-                action(callDispatchAsync);
-            } catch (error) {
-                handler.callDispatch({ type: '[Async]-Error' });
-            }
-        } else {
-            if (utils.isString(action)) {
-                action = { type: action }
-            } else if (utils.isFunction(action)) {
-                action = action();
-            }
+        if (utils.isString(action)) {
+            action = { type: action }
+        } else if (utils.isFunction(action) || utils.isFunctionAsync(action)) {
+            action = action(handler.callDispatch);
+        }
+        if (utils.isObject(action)) {
             handler.callDispatch(action);
         }
     };

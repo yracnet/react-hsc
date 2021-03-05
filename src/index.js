@@ -1,13 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import CounterApp from './examples/counter/CounterApp';
-import TodoApp from './examples/todo/TodoApp';
+import StoreContext, { createStore, useSelector, useDispatch } from "./module/RscComponent";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <CounterApp />
-    <TodoApp />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
+export default StoreContext;
+export {
+    createStore,
+    useSelector,
+    useDispatch,
+}

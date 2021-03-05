@@ -1,7 +1,8 @@
-:basic: src/examples/basic
+:basic: ../src/examples/basic
 
 # React-RSC
-React Reducer Store Context
+
+## React Reducer Store Context
 
 It is a Simple **Reducer Store Context** for react project using hooks 
 
@@ -9,7 +10,7 @@ It is a Simple **Reducer Store Context** for react project using hooks
 1. **createStore**: Create a Store
 1. **StoreContext**: Default StoreContext
 1. **useSelector**: Selecion a state from MAIN-STATE
-1. **useDispatch**: Reference a global dispatch of STORE
+1. **useDispatch**: Reference a global dispatch of Store
 
 ## Create a Reducer
 

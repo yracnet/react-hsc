@@ -48,9 +48,18 @@
   ],
   "keywords": [
     "react",
-    "state",
     "redux",
     "reducer",
-    "context"
+    "context",
+    "state",
+    "store",
+    "hook",
+    "hooks",
+    "redux plugin",
+    "redux devtools",
+    "context state",
+    "state management",
+    "react hook",
+    "global state"
   ]
 }

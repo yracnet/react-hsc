@@ -5,8 +5,11 @@
 [![NPM](https://img.shields.io/npm/v/react-rsc.svg)](https://www.npmjs.com/package/react-rsc) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 
+## React Reducer Store Context
 
-## CodeSandbox Basic Example
+It is a Simple **Reducer Store Context** for react project using hooks. Global State Management. 
+
+### CodeSandbox Basic Example
 
 [![Edit codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-rsc-001-t7g80)
 

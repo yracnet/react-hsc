@@ -1,6 +1,6 @@
 {
   "name": "react-rsc",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "React Reducer Store Context",
   "author": "Willyams Yujra <yracnet@gmail.com>",
   "license": "MIT",

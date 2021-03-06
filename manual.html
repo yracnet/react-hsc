@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.12">
-<title>React-RSC</title>
+<title>React-HSC</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -440,14 +440,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>React-RSC</h1>
+<h1>React-HSC</h1>
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_react_reducer_store_context">React Reducer Store Context</h2>
+<h2 id="_react_hook_store_context">React Hook Store Context</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>It is a Simple <strong>Reducer Store Context</strong> for react project using hooks</p>
+<p>It is a Simple <strong>Hook Store Context</strong> for react project using hooks</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -477,7 +477,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Create a <strong>counterReducer</strong>.</p>
 </div>
 <div class="paragraph">
-<p><a href="https://github.com/yracnet/react-rsc/tree/main/example/src/basic/counterReducer.js">counterReducer.js</a></p>
+<p><a href="https://github.com/yracnet/react-hsc/tree/main/example/src/basic/counterReducer.js">counterReducer.js</a></p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -502,11 +502,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Create a new <strong>Store</strong>, use <strong>useStore</strong> for declarin all reducers.</p>
 </div>
 <div class="paragraph">
-<p><a href="https://github.com/yracnet/react-rsc/tree/main/example/src/basic/basicStore.js">basicStore.js</a></p>
+<p><a href="https://github.com/yracnet/react-hsc/tree/main/example/src/basic/basicStore.js">basicStore.js</a></p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-javascript" data-lang="javascript">import { createStore } from 'react-rsc';
+<pre class="highlight"><code class="language-javascript" data-lang="javascript">import { createStore } from 'react-hsc';
 import { counterReducer } from './counterReducer';
 
 export const basicStore = createStore({
@@ -525,12 +525,12 @@ export const basicStore = createStore({
 <p>Use the <strong>StoreContext</strong> and pass de <strong>basicStore</strong>.</p>
 </div>
 <div class="paragraph">
-<p><a href="https://github.com/yracnet/react-rsc/tree/main/example/src/basic/BasicApp.js">BasicApp.js</a></p>
+<p><a href="https://github.com/yracnet/react-hsc/tree/main/example/src/basic/BasicApp.js">BasicApp.js</a></p>
 </div>
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="language-javascript" data-lang="javascript">import React from 'react'
-import StoreContext from 'react-rsc';
+import StoreContext from 'react-hsc';
 
 import { basicStore } from './basicStore';
 import { CounterDisplay } from './CounterDisplay';
@@ -558,12 +558,12 @@ export default BasicApp;</code></pre>
 <p><strong>useSelector</strong> for selection state from <strong>MAIN-STATE</strong>.</p>
 </div>
 <div class="paragraph">
-<p><a href="https://github.com/yracnet/react-rsc/tree/main/example/src/basic/CounterDisplay.js">CounterDisplay.js</a></p>
+<p><a href="https://github.com/yracnet/react-hsc/tree/main/example/src/basic/CounterDisplay.js">CounterDisplay.js</a></p>
 </div>
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="language-javascript" data-lang="javascript">import React from 'react'
-import { useSelector } from 'react-rsc';
+import { useSelector } from 'react-hsc';
 
 export const CounterDisplay = () =&gt; {
     let { counter } = useSelector(state =&gt; state.C1);
@@ -582,12 +582,12 @@ export const CounterDisplay = () =&gt; {
 <p><strong>useDispatch</strong> for dispatch an action.</p>
 </div>
 <div class="paragraph">
-<p><a href="https://github.com/yracnet/react-rsc/tree/main/example/src/basic/CounterButtons.js">CounterButtons.js</a></p>
+<p><a href="https://github.com/yracnet/react-hsc/tree/main/example/src/basic/CounterButtons.js">CounterButtons.js</a></p>
 </div>
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="language-javascript" data-lang="javascript">import React from 'react'
-import { useDispatch } from 'react-rsc';
+import { useDispatch } from 'react-hsc';
 
 export const CounterButtons = () =&gt; {
     const dispatch = useDispatch();
@@ -613,12 +613,12 @@ export const CounterButtons = () =&gt; {
 <p><strong>useDispatch</strong> for dispatch an action support string, function and async function parameters.</p>
 </div>
 <div class="paragraph">
-<p><a href="https://github.com/yracnet/react-rsc/tree/main/example/src/basic/CounterActions.js">CounterActions.js</a></p>
+<p><a href="https://github.com/yracnet/react-hsc/tree/main/example/src/basic/CounterActions.js">CounterActions.js</a></p>
 </div>
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="language-javascript" data-lang="javascript">import React from 'react'
-import { useDispatch } from 'react-rsc';
+import { useDispatch } from 'react-hsc';
 
 export const CounterActions = () =&gt; {
     const dispatch = useDispatch();
@@ -665,12 +665,12 @@ async function fnAsyncAction(dispatchAsync)  {
 <h2 id="_custom_store_context">Custom Store Context</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><a href="https://github.com/yracnet/react-rsc/tree/main/example/src/basic/CustomApp.js">CustomApp.js</a></p>
+<p><a href="https://github.com/yracnet/react-hsc/tree/main/example/src/basic/CustomApp.js">CustomApp.js</a></p>
 </div>
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="language-javascript" data-lang="javascript">import React, { createContext } from 'react'
-import { useSelector, useDispatch } from 'react-rsc';
+import { useSelector, useDispatch } from 'react-hsc';
 
 import { basicStore } from './basicStore';
 
@@ -726,7 +726,7 @@ export const CounterButtons = () =&gt; {
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-03-05 14:55:49 -0400
+Last updated 2021-03-06 16:07:33 -0400
 </div>
 </div>
 </body>

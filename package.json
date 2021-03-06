@@ -1,12 +1,12 @@
 {
-  "name": "react-rsc",
+  "name": "react-hsc",
   "version": "1.0.0",
-  "description": "React Reducer Store Context",
+  "description": "React Hook Store Context",
   "author": "Willyams Yujra <yracnet@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yracnet/react-rsc"
+    "url": "https://github.com/yracnet/react-hsc.git"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -47,14 +47,14 @@
     "dist"
   ],
   "keywords": [
+    "hook",
     "react",
+    "state",
+    "store",
+    "hooks",
     "redux",
     "reducer",
     "context",
-    "state",
-    "store",
-    "hook",
-    "hooks",
     "redux plugin",
     "redux devtools",
     "context state",

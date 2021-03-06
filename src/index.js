@@ -1,4 +1,4 @@
-import StoreContext, { createStore, useSelector, useDispatch } from "./module/RscComponent";
+import StoreContext, { createStore, useSelector, useDispatch } from "./module/Component";
 
 export default StoreContext;
 export {

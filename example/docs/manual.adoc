@@ -1,11 +1,11 @@
 :basic: ../src/basic
-:github: https://github.com/yracnet/react-rsc/tree/main/example/src/basic
+:github: https://github.com/yracnet/react-hsc/tree/main/example/src/basic
 
-# React-RSC
+# React-HSC
 
-## React Reducer Store Context
+## React Hook Store Context
 
-It is a Simple **Reducer Store Context** for react project using hooks 
+It is a Simple **Hook Store Context** for react project using hooks 
 
 1. **counterReducer**: Create a Reducer
 1. **createStore**: Create a Store

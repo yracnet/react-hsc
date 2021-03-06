@@ -1,4 +1,4 @@
-import { createStore } from 'react-rsc';
+import { createStore } from 'react-hsc';
 import { counterReducer } from './counterReducer';
 
 export const basicStore = createStore({

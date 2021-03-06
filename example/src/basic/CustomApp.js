@@ -1,5 +1,5 @@
 import React, { createContext } from 'react'
-import { useSelector, useDispatch } from 'react-rsc';
+import { useSelector, useDispatch } from 'react-hsc';
 
 import { basicStore } from './basicStore';
 

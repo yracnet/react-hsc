@@ -1,35 +1,35 @@
-# React-RSC
+# React-HSC
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/react-rsc.svg)](https://www.npmjs.com/package/react-rsc) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-hsc.svg)](https://www.npmjs.com/package/react-hsc) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 
-## React Reducer Store Context
+## React Hook Store Context
 
-It is a Simple **Reducer Store Context** for react project using hooks. Global State Management. 
+It is a Simple **Hook Store Context** for react project using hooks. Global State Management. 
 
 ### CodeSandbox Basic Example
 
-[![Edit codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-rsc-001-t7g80)
+[![Edit codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-hsc-001-t7g80)
 
 
 ## Install
 
-React RSC is available as a package on NPM for use with a module in your React application:
+React HSC is available as a package on NPM for use with a module in your React application:
 
 ```bash
 # NPM
-npm install react-rsc
+npm install react-hsc
 
 # Yarn
-yarn add react-rsc
+yarn add react-hsc
 ```
 
 
 ## Purpose
 
-The Redux RSC package is intended to be a simple alternative to REDUX for handling APPLICATION STATUS. It was originally created to understand the handling of REACT's useContext.
+The Redux HSC package is intended to be a simple alternative to REDUX for handling APPLICATION STATUS. It was originally created to understand the handling of REACT's useContext.
 
 1. **StoreContext** is a default component context.
 
@@ -52,7 +52,7 @@ Additionally, the connection functionality to the **REDUX-DEV-TOOLS** plugin was
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
-import StoreContext, { createStore, useSelector, useDispatch } from 'react-rsc'
+import StoreContext, { createStore, useSelector, useDispatch } from 'react-hsc'
 
 // 1.- Reducer Function
 export const counterReducer = (state, action) => {
@@ -66,7 +66,7 @@ export const counterReducer = (state, action) => {
     }
 }
 
-// 2.- RSC Store
+// 2.- HSC Store
 export const basicStore = createStore({
     C1: [counterReducer, { counter: 0 }],
 });
@@ -110,11 +110,11 @@ ReactDOM.render(<BasicApp />, document.getElementById('root'))
 
 ## Documentation
 
-The React-RSC docs are available at **https://yracnet.github.io/react-rsc/manual.html**.
+The React-HSC docs are available at **https://yracnet.github.io/react-hsc/manual.html**.
 
 ## Example
 
-The React-RSC docs are available at **https://yracnet.github.io/react-rsc/index.html**.
+The React-HSC docs are available at **https://yracnet.github.io/react-hsc/index.html**.
 
 
 

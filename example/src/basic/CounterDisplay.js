@@ -1,5 +1,5 @@
 import React from 'react'
-import { useSelector } from 'react-rsc';
+import { useSelector } from 'react-hsc';
 
 export const CounterDisplay = () => {
     let { counter } = useSelector(state => state.C1);

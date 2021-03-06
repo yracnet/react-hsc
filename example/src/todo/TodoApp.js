@@ -1,5 +1,5 @@
 import React from 'react'
-import StoreContext, { createStore } from 'react-rsc';
+import StoreContext, { createStore } from 'react-hsc';
 import './TodoApp.css'
 import { TodoForm } from './TodoForm';
 import { TodoList } from './TodoList';

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useDispatch } from 'react-rsc'
+import { useDispatch } from 'react-hsc'
 
 const init = { name: '', description: '' }
 

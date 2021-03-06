@@ -1,6 +1,6 @@
 
 import React from 'react'
-import StoreContext, { createStore } from 'react-rsc';
+import StoreContext, { createStore } from 'react-hsc';
 import './CounterApp.css';
 import { C1 } from './C1';
 import { C2 } from './C2';

@@ -1,5 +1,5 @@
 import React from 'react'
-import { useDispatch, useSelector } from 'react-rsc';
+import { useDispatch, useSelector } from 'react-hsc';
 
 export const C1 = () => {
     console.log('C1');

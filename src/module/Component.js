@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from 'react'
-import { createStoreHandler } from './RscHandler';
+import { createStoreHandler } from './Handler';
 import utils from './utils';
 
 const StoreContext = createContext(createStoreHandler());

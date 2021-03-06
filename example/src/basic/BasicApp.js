@@ -1,5 +1,5 @@
 import React from 'react'
-import StoreContext from 'react-rsc';
+import StoreContext from 'react-hsc';
 
 import { basicStore } from './basicStore';
 import { CounterDisplay } from './CounterDisplay';

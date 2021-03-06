@@ -1,5 +1,5 @@
 import React from 'react'
-import { useDispatch } from 'react-rsc'
+import { useDispatch } from 'react-hsc'
 
 export const TodoItem = ({ todo }) => {
     const dispatch = useDispatch();

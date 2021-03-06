@@ -1,7 +1,7 @@
 {
-  "name": "react-rsc-example",
+  "name": "react-hsc-example",
   "version": "0.1.0",
-  "homepage": "https://yracnet.github.io/react-rsc",
+  "homepage": "https://yracnet.github.io/react-hsc",
   "private": true,
   "scripts": {
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
@@ -16,7 +16,7 @@
     "react-dom": "file:../node_modules/react-dom",
     "react-scripts": "file:../node_modules/react-scripts",
     "web-vitals": "file:../node_modules/web-vitals",
-    "react-rsc": "file:.."
+    "react-hsc": "file:.."
   },
   "eslintConfig": {
     "extends": [
